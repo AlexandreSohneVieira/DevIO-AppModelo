@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Uc7wqmMJqCdN0sjFhSNHhVv60jZBpiM8CwuWWGRIR3GPpFqy7MMmT1en83HnporNF+EX3oyfS2ECSd9TIM837w==",
+  "success": true,
+  "projectFilePath": "D:\\_projects\\DevIO\\AppModelo\\src\\DevIO.UI.Site\\DevIO.UI.Site.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asvte\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512"
+  ],
+  "logs": []
+}
