@@ -29,18 +29,16 @@ if (app.Environment.IsDevelopment())
 
 app.UseStaticFiles();
 
-// Adicionando suporte a rotas
+// Adicionando suporte a rota
 app.UseRouting();
 
-// Rota padrão
-app.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
-
-// Rota de área genérica (não necessário no caso da demo)
-//app.MapControllerRoute("areas", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
 // Rota de áreas especializadas
 app.MapAreaControllerRoute("AreaProdutos", "Produtos", "Produtos/{controller=Cadastro}/{action=Index}/{id?}");
 app.MapAreaControllerRoute("AreaVendas", "Vendas", "Vendas/{controller=Pedidos}/{action=Index}/{id?}");
+
+// Rota padrão
+app.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
 
